@@ -1,6 +1,0 @@
-[submodule "themes/dark-mode"]
-	path = themes/dark-mode
-	url = https://github.com/gokarna-theme/gokarna-hugo.git
-[submodule "themes/gokarna"]
-	path = themes/gokarna
-	url = https://github.com/gokarna-theme/gokarna-hugo.git
