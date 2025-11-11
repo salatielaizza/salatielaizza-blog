@@ -1,10 +1,11 @@
 baseURL = 'https://salatielaizza.com/'
 languageCode = 'en-us'
 title = 'Salatiel Aizza'
-theme='gokarna'
+# theme='gokarna'
 defaultContentLanguage = "en"
 # Automatically generate robots.txt
 enableRobotsTXT = true
+theme = "PaperMod"
 
 [menu]
   [[menu.main]]

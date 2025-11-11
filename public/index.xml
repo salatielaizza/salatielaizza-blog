@@ -15,5 +15,19 @@
       <guid>http://localhost:1313/posts/hello-world/</guid>
       <description>&lt;p&gt;#Salatiel&amp;rsquo;s Blog&lt;/p&gt;&#xA;&lt;p&gt;This is my firt post in my blog to test&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Archive</title>
+      <link>http://localhost:1313/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archives/</guid>
+      <description>archives</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>http://localhost:1313/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/search/</guid>
+      <description>search</description>
+    </item>
   </channel>
 </rss>
