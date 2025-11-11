@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Salatiel Aizza</title>
-    <link>http://localhost:1313/</link>
+    <link>https://salatielaizza.com/</link>
     <description>Recent content on Salatiel Aizza</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://salatielaizza.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>https://salatielaizza.com/posts/hello-world/</link>
       <pubDate>Sun, 09 Nov 2025 18:28:54 +0100</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>https://salatielaizza.com/posts/hello-world/</guid>
       <description>&lt;p&gt;#Salatiel&amp;rsquo;s Blog&lt;/p&gt;&#xA;&lt;p&gt;This is my firt post in my blog to test&lt;/p&gt;</description>
     </item>
     <item>
       <title>Archive</title>
-      <link>http://localhost:1313/archives/</link>
+      <link>https://salatielaizza.com/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/archives/</guid>
+      <guid>https://salatielaizza.com/archives/</guid>
       <description>archives</description>
     </item>
     <item>
       <title>Search</title>
-      <link>http://localhost:1313/search/</link>
+      <link>https://salatielaizza.com/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
+      <guid>https://salatielaizza.com/search/</guid>
       <description>search</description>
     </item>
   </channel>
