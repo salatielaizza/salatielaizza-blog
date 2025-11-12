@@ -34,6 +34,7 @@ params:
     enabled: true         # <- imprescindible
     # shortcut: "/"       # opcional
     # fuse: true          # (PaperMod usa Fuse.js por defecto)
+    disableSearch: false
 
   homeInfoParams:
     Title: "Hi there 👋"
