@@ -5,40 +5,58 @@ defaultContentLanguage: "en"
 enableRobotsTXT: true
 theme: "PaperMod"
 
+# Outputs required for search functionality
 outputs:
   home:
     - HTML
     - RSS
-    - JSON
+    - JSON # required for search
 
+# Main menu
 menu:
   main:
     - name: "Posts"
       url: "/posts/"
       weight: 1
+    
     - name: "Tags"
       url: "/tags/"
       weight: 2
+    
     - identifier: "github"
       url: "https://github.com"
       weight: 3
       pre: "<span data-feather='github'></span>"
       post: ""
 
+# Theme parameters
 params:
-  defaultTheme: auto
+  # Theme mode (dark, light or auto)
+  defaultTheme: auto # switch between dark/light according to browser theme
   disableThemeToggle: false
-
-  # 🔎 Activa la búsqueda
-  search:
-    enabled: true         # <- imprescindible
-    # shortcut: "/"       # opcional
-    # fuse: true          # (PaperMod usa Fuse.js por defecto)
-
+  
+  # Home Page Info Mode
   homeInfoParams:
     Title: "Hi there 👋"
     Content: "Can be Info, links, about..."
-
+  
+  # Profile Mode (alternative to homeInfoParams)
+  # Uncomment to use Profile Mode instead of Home Info
+  # profileMode:
+  #   enabled: true
+  #   title: "Salatiel Aizza"
+  #   subtitle: "This is subtitle"
+  #   imageUrl: "<image link>"
+  #   imageTitle: "<title of image as alt>"
+  #   imageWidth: 120
+  #   imageHeight: 120
+  #   buttons:
+  #     - name: Archive
+  #       url: "/archive"
+  #     - name: Github
+  #       url: "https://github.com/"
+  
+  # Social Icons
   socialIcons:
     - name: "github"
       url: "https://github.com/yourusername"
@@ -46,28 +64,29 @@ params:
       url: "https://twitter.com/yourusername"
     - name: "linkedin"
       url: "https://linkedin.com/in/yourusername"
-
-  # ⚙️ Opciones de Fuse.js
+  
+  # Search options (Fuse.js)
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
     location: 0
     distance: 1000
     threshold: 0.4
-    minMatchCharLength: 1   # <- nombre correcto
+    minMatchCharLevel: 0
     keys: ["title", "permalink", "summary", "content"]
-
+  
+  # Post features
   ShowCodeCopyButtons: true
   ShowShareButtons: true
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowToc: true
-
+  
+  # Cover image settings
   cover:
     responsiveImages: false
     linkFullImages: true
     hidden: false
     hiddenInList: false
     hiddenInSingle: false
-
