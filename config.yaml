@@ -26,16 +26,14 @@ menu:
       post: ""
 
 params:
-  defaultTheme: auto
-  disableThemeToggle: false
-
-  # 🔎 Activa la búsqueda
+  disableSearch: false
   search:
     enabled: true         # <- imprescindible
     # shortcut: "/"       # opcional
     # fuse: true          # (PaperMod usa Fuse.js por defecto)
-    disableSearch: false
 
+  disableThemeToggle: false
+  defaultTheme: auto
   homeInfoParams:
     Title: "Hi there 👋"
     Content: "Can be Info, links, about..."
@@ -71,4 +69,10 @@ params:
     hidden: false
     hiddenInList: false
     hiddenInSingle: false
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
+
+# (Opcional pero recomendado) quita la clave `theme:` o déjala vacía
+# theme: ""
 
