@@ -5,8 +5,4 @@ layout: "search" # necessary for search
 # description: "Description for Search"
 summary: "search"
 placeholder: "placeholder text in search input box"
-searchHidden: true
 ---
-
-
-

@@ -35,16 +35,13 @@ params:
   disableThemeToggle: false
   defaultTheme: auto
   homeInfoParams:
-    Title: "Hi there 👋"
-    Content: "Can be Info, links, about..."
-
+    Title: "Salatiel Aizza - Blog"
+    Content: "I am a Linux system administrator and I like to automate processes. In this blog, I will share what I learn about Kubernetes, Linux, and other DevOps technologies."
   socialIcons:
     - name: "github"
-      url: "https://github.com/yourusername"
-    - name: "twitter"
-      url: "https://twitter.com/yourusername"
+      url: "https://github.com/salatielaizza"
     - name: "linkedin"
-      url: "https://linkedin.com/in/yourusername"
+      url: "https://www.linkedin.com/in/salatielaizza/?locale=en_US"
 
   # ⚙️ Opciones de Fuse.js
   fuseOpts:
